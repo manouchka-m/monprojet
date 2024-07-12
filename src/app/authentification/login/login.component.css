@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('/assets/img3.png') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  form {
+    background: rgba(16, 16, 16, 0.849);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(243, 242, 242, 0.46);
+    width: 100%;
+    max-width: 400px;
+    margin-left: 40px;
+
+
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: cursive;
+    color: aliceblue;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: transparent;
+    color: aliceblue;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .form-check {
+    margin-bottom: 15px;
+  }
+  
+  .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .form-text {
+    font-size: 0.875em;
+    color: #f6f6f7;
+    font-family: cursive;
+  }
+  
+  img {
+    width: 1500px;
+  }
+  
+  p {
+    font-family: cursive;
+    font-size:larger;
+    font-weight: 700;
+    color: #007bff;;
+  }
+  
+  .signup-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .signup-link:hover {
+    color: #0056b3;
+  }
+  
+  .signup-link:active {
+    color: #003f7f;
+  }
+  
+  button.btn.btn-primary {
+    width: 360px;
+  }
+  
+  p.p2 {
+    margin-left: 30px;
+    color:aliceblue;
+  }
+  button.btn-primary{
+    background-color: red;
+    font-family: cursive;
+    font-weight: 500;
+    font-size: larger;
+  }
+  .form-control::placeholder {
+    color: #fff; /* Couleur du placeholder en blanc */
+    opacity: 1; /* Assure que la couleur soit bien visible */
+}
+  

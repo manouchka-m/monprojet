@@ -1,0 +1,48 @@
+/* Fond sombre pour la page */
+.home-container {
+    background-color: #181818;
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    overflow-x: auto; /* Défilement horizontal activé */
+    white-space: nowrap; /* Empêche le retour à la ligne des éléments */
+    width: 100%; /* Ajuste à la largeur de la fenêtre */
+    
+}
+
+/* Conteneur de films */
+.movies {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px; /* Espace en bas */
+}
+
+/* Style pour chaque film */
+.movie {
+    background-color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Largeur fixe pour chaque film */
+    flex: 0 0 auto; /* Empêche le redimensionnement */
+    margin-top: 100px;
+}
+
+.movie img {
+    width: 100%; /* Remplit le conteneur parent */
+    height: auto; /* Ajuste automatiquement la hauteur pour conserver les proportions */
+    display: block; /* Assure le bon rendu de l'image */
+    border-bottom: 2px solid #e50914;
+}
+
+.movie h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.movie:hover {
+    transform: scale(1.05);
+}

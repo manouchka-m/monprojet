@@ -1,0 +1,74 @@
+/* Navbar Custom Styles */
+.navbar-custom {
+    background-color: transparent !important; /* Fond de navbar complètement transparent */
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-custom .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fefdfd; /* Couleur du texte blanc */
+    text-transform: uppercase; /* Texte en majuscules */
+    font-family: cursive;
+    margin-left:-50px;
+  }
+  
+  .navbar-custom .navbar-brand:hover {
+    color: #4d07ff; /* Couleur jaune au survol */
+  }
+  
+  .navbar-custom .nav-link {
+    font-size: 1.1rem;
+    margin-left: 1.5rem;
+    color: #fffefe; /* Couleur du texte blanc */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #4d07ff; /* Couleur jaune au survol */
+  }
+  
+  .form-control {
+    background-color: transparent;
+    border-color: #fdfbfb; /* Couleur de la bordure du champ de recherche */
+    margin-left: 340px;
+    width: 300px;
+    border:2px solid rgb(246, 246, 246);
+    height: 55;
+ 
+   
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 10px rgba(98, 7, 255, 0.8); /* Ombre jaune sur le champ de recherche au focus */
+    border-color: #4d07ff; /* Couleur de la bordure jaune au focus */
+  }
+  
+  .btn-outline-light {
+    border-color: #fefdfd; /* Couleur de la bordure du bouton de recherche */
+    color: #faf6f6; /* Couleur du texte du bouton de recherche */
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #4d07ff; /* Fond jaune au survol */
+    border-color: #4d07ff; /* Couleur de la bordure jaune au survol */
+    color: #fefeff; /* Couleur du texte sombre au survol */
+  }
+  
+
+  .search-icon {
+    position: absolute;
+    right: 140px; /* Ajuste la position de l'icône */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f7f5f5;
+  }
+  
+  /* Focus sur le champ de recherche */
+  .search-container .form-control:focus + .search-icon {
+    color: #e50914; /* Change la couleur de l'icône lorsque le champ est en focus */
+  }
+
+.form-control::placeholder {
+    color: #fff; /* Couleur du placeholder en blanc */
+    opacity: 1; /* Assure que la couleur soit bien visible */
+}

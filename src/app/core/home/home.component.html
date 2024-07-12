@@ -1,0 +1,14 @@
+<body>
+  
+    <div class="home-container">
+      <div class="movies">
+        <div *ngFor="let movie of movies" class="movie">
+          <img [src]="movie.imageUrl" [alt]="movie.title">
+          <h2>{{ movie.title }}</h2>
+        </div>
+      </div>
+    </div>
+  
+    
+  </body>
+  
